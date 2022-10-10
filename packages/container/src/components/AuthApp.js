@@ -15,7 +15,6 @@ export default function AuthApp({ onSignIn }) {
         if (pathname !== nextPathname) history.push(nextPathname);
       },
       onSignIn: () => {
-        console.log("onSignIn -> user signed in");
         onSignIn();
       },
     });
